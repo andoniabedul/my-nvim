@@ -29,10 +29,10 @@ let g:colors_name = "solarflare-contrast-customized"
 hi Cursor         guifg=#000000 guibg=#f8f8f0 gui=NONE
 hi Visual         guifg=#ffffff guibg=#ff4e50 gui=NONE
 hi CursorLine     guifg=NONE guibg=#080808 gui=NONE
-hi CursorLineNr   guifg=#4d4d4d guibg=#000000 gui=NONE
+hi CursorLineNr   guifg=white guibg=#000000 gui=NONE
 hi CursorColumn   guifg=NONE guibg=#000000 gui=NONE
 hi ColorColumn    guifg=NONE guibg=#000000 gui=NONE
-hi LineNr         guifg=#1a1a1a guibg=#000000 gui=NONE
+hi LineNr         guifg=#646464 guibg=#000000 gui=NONE
 hi VertSplit      guifg=#1a1a1a guibg=#1a1a1a gui=NONE
 hi MatchParen     guifg=#ff4e50 guibg=NONE gui=underline
 hi StatusLine     guifg=#e3e2e0 guibg=#000000 gui=bold
@@ -78,7 +78,6 @@ hi Type           guifg=#ff4e50 guibg=NONE gui=NONE
 hi Underlined     guifg=NONE guibg=NONE gui=underline
 hi Noise          guifg=#fc913a
 
-
 " GREEN #54fa3a
 
 "########################################
@@ -98,7 +97,7 @@ hi xmlEndTag         guifg=#fc913a guibg=NONE gui=NONE
 " function word
 hi javaScriptFunction guifg=#fc913a
 " prop objects
-hi javaScriptLabel guifg=#bcbcbc 
+hi javaScriptLabel guifg=#bcbcbc
 
 hi javaScriptPrototype guifg=#fc913a
 hi javaScriptIdentifier guifg=#fc913a
@@ -127,4 +126,3 @@ hi javaScriptGlobalObjects guifg=#ff4e50
 "########################################
 "# Light Theme Overrides                #
 "########################################
-
